@@ -5,8 +5,7 @@ html {
 }
 
 body {
-    display: grid;
-    grid-template-columns: 485px;
+    min-width: 485px;
 }
 
 main {
@@ -34,6 +33,11 @@ h1 {
 
 h2 {
     font-size: 2em;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 button {
